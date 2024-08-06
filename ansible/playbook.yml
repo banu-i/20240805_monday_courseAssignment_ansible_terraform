@@ -1,6 +1,6 @@
 ---
 - name: Install Software on EC2 Instances
-  hosts: ec2-instances
+  hosts: ec2_instances
   become: yes
   tasks:
     - name: Update apt cache
